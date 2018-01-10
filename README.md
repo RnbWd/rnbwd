@@ -1,5 +1,5 @@
 
-> how to make a rainbow in CSS
+> how to make a rainbow in SCSS
 
 ````
 @include keyframes(rainbow) {
