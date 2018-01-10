@@ -1,4 +1,3 @@
-
 @include keyframes(rainbow) {
   from {
     @include filter(hue-rotate(0deg));
@@ -12,7 +11,7 @@
   @include animation(rainbow 10.0s linear infinite);
 }
 
-.rainbowd {
+.rainbow {
   @include transform(translateZ(0));
   @include animation(rainbow 8.0s linear);
   @include animation-iteration-count(infinite);
